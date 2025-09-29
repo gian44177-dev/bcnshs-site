@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bais City National Science High School</title>
+  <meta name="description" content="Bais City National Science High School — a public science high school in Bais City, Negros Oriental, Philippines." />
+
+  <style>
+    :root{
+      --bg:#f7f8fb;
+      --card:#ffffff;
+      --accent:#0b6ef6;
+      --muted:#6b7280;
+      --maxw:900px;
+      --radius:12px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    html,body{height:100%}
+    body{
+      margin:0;
+      background:linear-gradient(180deg, #f5f7fb 0%, #ffffff 100%);
+      color:#0f1724;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:36px;
+      box-sizing:border-box;
+    }
+    .wrap{
+      width:100%;
+      max-width:var(--maxw);
+      background:var(--card);
+      border-radius:var(--radius);
+      box-shadow:0 8px 30px rgba(12, 15, 25, 0.08);
+      overflow:hidden;
+    }
+    .hero{
+      display:block;
+      width:100%;
+      height:320px;
+      object-fit:cover;
+      background:#e9eefc;
+    }
+    .content{
+      padding:28px 28px 36px;
+    }
+    h1{
+      margin:0 0 10px 0;
+      font-size:1.6rem;
+      line-height:1.05;
+      letter-spacing:-0.01em;
+    }
+    p.lead{
+      margin:0 0 18px 0;
+      color:var(--muted);
+    }
+    .cta{
+      display:inline-block;
+      margin-top:12px;
+      background:var(--accent);
+      color:white;
+      padding:10px 14px;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:600;
+      box-shadow:0 6px 18px rgba(11,110,246,0.18);
+    }
+    .meta{
+      margin-top:20px;
+      font-size:0.92rem;
+      color:var(--muted);
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      align-items:center;
+    }
+    .badge{
+      background:#eef6ff;
+      color:var(--accent);
+      padding:6px 8px;
+      border-radius:999px;
+      font-weight:600;
+      font-size:0.85rem;
+    }
+    footer{
+      background:#fafbff;
+      padding:14px 18px;
+      border-top:1px solid rgba(12,15,25,0.03);
+      font-size:0.88rem;
+      color:var(--muted);
+      text-align:center;
+    }
+    @media (max-width:520px){
+      .hero{ height:220px; }
+      .content{ padding:20px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap" role="main" aria-labelledby="school-name">
+    <img class="hero" src="images/hero.jpg" alt="BCNSHS">
+    <div class="content">
+      <h1 id="school-name">Bais City National Science High School</h1>
+      <p class="lead">
+        It is a public science high school in Bais City, Negros Oriental, Philippines. It offers education from Grade 7 to Grade 12. It is recognized by the Department of Education (DepEd) as a science high school.
+      </p>
+      <p>
+        The STEM (Science, Technology, Engineering, and Mathematics) strand at Bais City National Science High School provides students with a strong foundation in advanced science and mathematics.
+      </p>
+      <a class="cta" href="https://www.facebook.com" target="_blank" rel="noopener">Visit our Facebook</a>
+      <div class="meta">
+        <span class="badge">Public Science High School</span>
+        <span>Grades: 7–12</span>
+        <span>Location: Bais City, Negros Oriental, Philippines</span>
+      </div>
+    </div>
+    <footer>
+      Made with Carrd — converted to standalone HTML.
+    </footer>
+  </main>
+</body>
+</html>
